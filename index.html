@@ -38,11 +38,14 @@
         </div>
         <div id="newsletter">
             <div class="container">
+
+                <div id="typed-strings">
+                    <p>Welcome guest to <strong style="color:#E0021C">toyota website.</strong></p>
+                    <p>Click below images to view them in <strong style="color:#E0021C">full size.</strong></p>
+                    <p>I am glad that you are here, see other pages <strong style="color:#E0021C">too.</strong></p>
+                  </div>
+                  <span id="typed"></span>
                 
-                <form action="#">
-                    <input type="email" id="email" placeholder="Type here.....">
-                    <input type="button" id="button" value="Find more">
-                </form>
             </div>
         </div>
         <div id="boxes">
@@ -98,11 +101,21 @@
     </footer>
 
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
         lightbox.option({
             'maxWidth': 1600,
             'maxHeight': 3600
-        })
+        })  
+
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 30,
+            backDelay: 900,
+            backSpeed: 25,
+            loop: true
+        });
+
     </script>
 </body>
 </html>
