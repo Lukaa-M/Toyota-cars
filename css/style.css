@@ -141,7 +141,7 @@ header nav a{
 }
  #bg_img{
     min-height: 1000px;
-    background-image: url("../img/about_img.jpg");
+    background-image: url("../img/about1_img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -220,7 +220,7 @@ header nav a{
 
 #hero-second{
     min-height: 500px;
-    background-image: url("../img/support10_img.jpg");
+    background-image: url("../img/about8.1_img.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +228,7 @@ header nav a{
 }
 #hero-third{
     min-height: 1200px;
-    background-image: url("../img/sign-in2_img.jpg");
+    background-image: url("../img/sign-in2.1_img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -279,7 +279,7 @@ input #support:focus +i{
 
 #hero{
     min-height: 600px;
-    background-image: url("../img/about7_img.jpg");
+    background-image: url("../img/about7.1_img.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
