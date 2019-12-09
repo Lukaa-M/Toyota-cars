@@ -162,7 +162,7 @@ header nav a{
 }
 .box-img{
     border-radius: 50%;
-    width: 200px;
+    width: 170px;
     height: 200px;
 }
 #bg_img .box h1{
@@ -298,10 +298,10 @@ input #support:focus +i{
 }
 #hero p{
     position: absolute;
-    margin-top: 300px;
+    margin-top: 260px;
     left: 0;
     top: 0;
-    transform: translate(10%,0%);
+    transform: translate(6%,0%);
     width: 700px;
     font-size: 20px;
     color: #ffffff;
